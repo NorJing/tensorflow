@@ -23,7 +23,7 @@ on:
 jobs:
   build:
     name: PyLint
-    runs-on: ubuntu-latest
+    runs-on: buildjet-2vcpu-ubuntu-1804
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
